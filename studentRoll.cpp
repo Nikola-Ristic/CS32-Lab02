@@ -27,7 +27,7 @@ std::string StudentRoll::toString() const {
       result += ",";
     }
 
-    result += "[" + curr->s->toString() + "]";
+    result += curr->s->toString();
     curr = curr->next;
   }
 
